@@ -14,6 +14,6 @@ def list_dwarves(array)
   number = 1
   array.each_with_index do |value, index|
     number += index
-    puts "#{index}. #{value}"
+    puts "#{number}. #{value}"
   end
 end
